@@ -1,6 +1,5 @@
 # playground where exercising features of Nextjs has
 
-
 # branch
 - main
 - dev
