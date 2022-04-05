@@ -1,7 +1,8 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import type { NextPage } from 'next';
+import Head from 'next/head';
+import Image from 'next/image';
+import Link from 'next/link';
+import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
   return (
@@ -51,6 +52,9 @@ const Home: NextPage = () => {
             </p>
           </a>
         </div>
+        <Link href="Container">
+          <a>여기로 이동</a>
+        </Link>
       </main>
 
       <footer className={styles.footer}>
@@ -66,7 +70,7 @@ const Home: NextPage = () => {
         </a>
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
